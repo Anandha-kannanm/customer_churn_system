@@ -1,0 +1,31 @@
+{
+  "accuracy": 0.7828,
+  "roc_auc": 0.8371,
+  "feature_columns": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "tenure",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "MonthlyCharges",
+    "TotalCharges",
+    "AvgMonthlyCharge",
+    "HasInternet",
+    "HasStreaming",
+    "ContractRisk",
+    "TenureGroupNum",
+    "ChargeRatio"
+  ]
+}

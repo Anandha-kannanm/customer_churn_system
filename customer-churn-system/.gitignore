@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model artifacts (regenerate with train)
+5_model/churn_model.pkl
+5_model/encoders.pkl
+5_model/scaler.pkl
+
+# Database
+8_database/churn.db
+
+# Logs
+14_logs/*.log
+
+# Reports
+11_reports/charts/*.png
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# A/B test logs
+10_ab_testing/experiment_log.jsonl
